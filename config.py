@@ -21,7 +21,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "87579ffc7be4d3ababdc07cbbc2e8dc4")
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQFIueUAPpUylNvaEAWw1JNTbSIW3GpYtOpOJVWdZ21G76NgiDT5t8oHDjtPUaH2wkg3FZ39E51W1qvlx8Ejjnw3SN1dqSQjRGyakpUQ0RvFFpm_zk7bbvThGlmYDlrJ4ZgcbOcgCksT61yd7iOEoT_7cN3Z3ClSJFlg3RoW82K04MGo5BKWoTAn0OhP90mXMu7LuFJuAxZ1rqP_s5w4EbonZ6Z90JKh7wFNgSzHx6kdFn7Cs8X7MkuOrK3cE2JNdiPbvGwOEw84p_I57YdRQSQYoCWVYVWu1TZ8q7WSq8LbtN7PIui_3bx8J2AP1vSZN6R-J7uOZzFAv_fEA0_i1s7IkCYvNQAAAAGBtF75AA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "")
